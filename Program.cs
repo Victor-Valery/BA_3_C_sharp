@@ -14,7 +14,7 @@ namespace BA_3
             Console.WriteLine($"INTEGER VALUE: {myInt}\nDOUBLE VALUE: {myDouble}");
             Console.WriteLine("INTEGER VALUE: " + myInt + "\n" + "DOUBLE VALUE: " + myDouble);
 
-         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             Console.Write("Please enter your name: ");
             string name = Console.ReadLine();
@@ -27,11 +27,11 @@ namespace BA_3
 
             Console.WriteLine($"Welcome Mr./Mrs. {name} {surname} your age is: {age}");
 
-         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             int number1;
             int number2;
-            int sum;
+            int sum1;
 
             Console.Write("Please enter the first complete number1: ");
             number1 = int.Parse(Console.ReadLine());
@@ -40,11 +40,11 @@ namespace BA_3
             Console.Write("Please enter the first complete number2: ");
             number2 = int.Parse(Console.ReadLine());
 
-            sum = number1 + number2;
+            sum1 = number1 + number2;
 
-            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Sum: {sum1}");
 
-         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             while (true)
             {
@@ -63,9 +63,13 @@ namespace BA_3
                 }
             }
 
-         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
-        
+            int number4 = 7;
+            int number5 = 9;
+            int sum2 = number4 + number4;
+
+            Console.WriteLine(Math.Sqrt(sum2));
 
 
 
