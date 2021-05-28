@@ -14,7 +14,7 @@ namespace BA_3
             Console.WriteLine($"INTEGER VALUE: {myInt}\nDOUBLE VALUE: {myDouble}");
             Console.WriteLine("INTEGER VALUE: " + myInt + "\n" + "DOUBLE VALUE: " + myDouble);
 
-            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             Console.Write("Please enter your name: ");
             string name = Console.ReadLine();
@@ -27,7 +27,7 @@ namespace BA_3
 
             Console.WriteLine($"Welcome Mr./Mrs. {name} {surname} your age is: {age}");
 
-            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             int number1;
             int number2;
@@ -44,7 +44,7 @@ namespace BA_3
 
             Console.WriteLine($"Sum: {sum1}");
 
-            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             while (true)
             {
@@ -63,13 +63,35 @@ namespace BA_3
                 }
             }
 
-            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+         // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
 
             int number4 = 7;
             int number5 = 9;
             int sum2 = number4 + number4;
 
             Console.WriteLine(Math.Sqrt(sum2));
+
+            // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+            string sentence = "Hello, How are you";
+
+            Console.WriteLine("what word are you looking for: ");
+
+            string searched_word = Console.ReadLine().ToLower();
+
+
+            bool value = sentence.Contains(searched_word);
+
+            if (value)
+            {
+                Console.WriteLine("Searched value found");
+            }
+
+            else
+            {
+                Console.WriteLine("No required value");
+            }
+
 
 
 
